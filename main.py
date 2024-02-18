@@ -35,6 +35,9 @@ def remove_spaces(text):
 def remove_spaces_and_commas(text):
   return text.replace(" ", "").replace(",", "")
 
+def remove_spaces_and_commas_and_periods(text):
+  return text.replace(" ", "").replace(",", "").replace(".", "")
+
 
 if __name__ == '__main__':
   # importing the required modules
