@@ -32,6 +32,9 @@ def swapecase(text):
 def remove_spaces(text):
   return text.replace(" ", "")
 
+def remove_spaces_and_commas(text):
+  return text.replace(" ", "").replace(",", "")
+
 
 if __name__ == '__main__':
   # importing the required modules
@@ -44,3 +47,4 @@ if __name__ == '__main__':
   print(reverser(text))
   print(swapecase(text))
   print(remove_spaces(text))
+  print(remove_spaces_and_commas(text))
